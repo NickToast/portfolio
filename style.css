@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blanchedalmond;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+.navbar {
+    background-color: #12141F;
+}
+
+.row-no-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hero-container {
+    background-color: #12141F;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* color: transparent; */
+}
+
+.hero-image-parallax {
+    background: url('images/mountains-bnw.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-text {
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+}
+
+.fade-in {
+    animation: fadeIn 5s;
+    /* -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s; */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* @media only screen  */
+
+.hero-image-parallax h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.hero-image-parallax h1 {
+    color: black;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.about-me-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .container-height {
+    height: 100%;
+} */
+
+.about-me {
+    font-size: 3rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 3em;
+    padding: 1rem;
+}
+
+/* .pfp {
+    display: none;
+    border-radius: 50%;
+    border: 2px 2px 2px #22577A;
+} */
+
+.mountain-image {
+    background-image: url('images/sunset-mountains2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+/* .bg-colors {
+    background-color: white;
+    border-radius: 1rem;
+} */
+
+.text-align-center {
+    text-align: center;
+}
+
+.my-skills>button {
+    background-color: #243748;
+    color: white;
+}
+
+.my-skills>button:hover {
+    color: white;
+    background: linear-gradient(90deg, rgba(36, 55, 72, 1) 0%, rgba(56, 86, 116, 1) 50%, rgba(75, 116, 159, 1) 100%);
+    transition-duration: 1000;
+}
+
+.projects-container {
+    width: 100%;
+    height: 100%;
+    /*media query to 75% for mobile?*/
+}
+
+.projects {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn-color {
+    background-color: #22577A;
+    color: white;
+}
+
+.btn-color:hover {
+    color: white;
+    background: linear-gradient(90deg, rgba(36, 55, 72, 1) 0%, rgba(56, 86, 116, 1) 50%, rgba(75, 116, 159, 1) 100%);
+    transition-duration: 1000;
+}
+
+.mountain-2 {
+    background-image: url('images/night-moon2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.contact-me-container {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-me-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact-me-names {
+    gap: 3rem;
+}
+
+.form-message {
+    height: 10rem;
+}
+
+/* .icon-links {} */
+
+.icon-links>a {
+    color: black;
+}
+
+.icon-links>a:hover {
+    color: lightslategrey;
+}
+
+.form-control {
+    width: 100%;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+/*fade in scrolling*/
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
