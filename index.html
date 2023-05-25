@@ -13,12 +13,13 @@
 <body>
     <nav class="fixed-top navbar navbar-expand-lg text-light navbar-nav-scroll">
         <!--container so elements are not right up against the border of the window-->
-        <div class=" container">
+        <div class="container">
             <!-- <a href="#">Nicholas Tangsouvanh</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="nav-menu">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
+                aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon navbar-dark"></span>
             </button>
-            <div class="collapse navbar-collapse" id="nav-menu">
+            <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item p-3">
                         <a href="#home">HOME</a>
@@ -200,7 +201,7 @@
                         <a href="#" class="m-3">Download Here</a>
                     </div>
                     <div class="contact-form col-lg-7 col-md col-sm p-3">
-                        <form action="mailto:nicholastangsouvanh@gmail.com" method="post" enctype="text/plain">
+                        <form action="mailto:awildredpanda@gmail.com" method="post" enctype="text/plain">
                             <div class="d-sm-flex contact-me-names justify-content-between">
                                 <div class="mb-3 col-lg-5 col-md col-sm">
                                     <label for="firstName" class="form-label">First Name</label>
@@ -232,9 +233,13 @@
 
     </main>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 
