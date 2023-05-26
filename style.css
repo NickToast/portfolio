@@ -19,6 +19,12 @@ html {
     scroll-padding-top: 70px;
 }
 
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .navbar {
     background-color: #12141F;
 }
